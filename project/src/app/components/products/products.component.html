@@ -1,0 +1,28 @@
+<section class="container">
+  <h1 class="header">Trendy Products</h1>
+  <div class="row">
+    <div class="col-sm-4" *ngFor="let product of products">
+      <div class="product-item">
+        <a [routerLink]="['/product-page/', product.id]">
+          <img src="{{ product.image }}" alt="" />
+        </a>
+        <div class="product-details">
+          <h6 class="name-head">{{ product.name }}</h6>
+          <hr />
+          <div class="product-description">
+            <h3>Description</h3>
+            <p>{{ product.description }}</p>
+          </div>
+        </div>
+        <div class="product-footer">
+          <div class="product-info">
+            <a class="btn btn-info">{{ product.price | currency }}</a>
+            <a class="btn btn-success" id="cc" (click)="add($event)"
+              >Add To Cart</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

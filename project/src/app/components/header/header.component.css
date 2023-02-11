@@ -1,0 +1,25 @@
+.navbar-brand img {
+  width: 70px;
+  height: 70px;
+}
+nav {
+  background-color: #0082e6;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  height: 100px;
+}
+a {
+  position: relative;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Lobster";
+}
+.title {
+  font-size: 30px;
+  margin-left: 20px;
+  font-family: "Lobster";
+}
+.btn-sm {
+  padding: 5px 20px;
+}

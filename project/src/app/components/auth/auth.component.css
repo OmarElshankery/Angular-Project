@@ -1,0 +1,23 @@
+.form-button{
+    height:35px;
+    border:1px solid blue;
+    cursor: pointer;
+}
+.form-input{
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 1px solid blue;
+    color: blue;
+}
+.common-form{
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+}
+h1{
+    text-align: center;
+}
+.container{min-height: 570px;}

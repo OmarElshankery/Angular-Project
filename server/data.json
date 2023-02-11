@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "image": "https://freepngimg.com/thumb/blazer/7-2-blazer-png-image.png",
+      "name": "Navy Suit",
+      "description": "Classic Navy Suit With Navy Cravatte",
+      "price": "1200"
+    },
+    {
+      "id": "2",
+      "image": "https://freepngimg.com/thumb/blazer/135938-brown-blazer-free-hq-image.png",
+      "name": "Brown Blazer",
+      "description": "Blazer For Casual Occasion",
+      "price": "800"
+    },
+    {
+      "id": "3",
+      "image": "https://freepngimg.com/thumb/blazer/6-2-blazer-png-clipart.png",
+      "name": "Black Blazer",
+      "description": "Classic Black Blazer For Several Occasions",
+      "price": "900"
+    },
+    {
+      "id": "4",
+      "image": "https://freepngimg.com/thumb/blazer/137905-blazer-cream-free-png-hq.png",
+      "name": "Cream Blazer",
+      "description": "Hight Quality Cream Blazer",
+      "price": "1000"
+    },
+    {
+      "id": "5",
+      "image": "https://freepngimg.com/thumb/blazer/138028-purple-blazer-free-clipart-hd.png",
+      "name": "Purple Blazer",
+      "description": "Blazer For Halloween Or Fuuny Occasions",
+      "price": "1700"
+    },
+    {
+      "id": "6",
+      "image": "https://freepngimg.com/thumb/blazer/136241-slim-blazer-fit-suit-png-image-high-quality.png",
+      "name": "Grey Blazer",
+      "description": "Slim Fit Blazer Suitable For Parties",
+      "price": "850"
+    },
+    {
+      "id": "7",
+      "image": "https://freepngimg.com/thumb/suit/20-suit-png-image.png",
+      "name": "Black Classic Suit",
+      "description": "Classic Suit With Bow Tie",
+      "price": "2500"
+    },
+    {
+      "id": "8",
+      "image": "https://freepngimg.com/thumb/suit/36916-8-suit-picture.png",
+      "name": "Brown Light Suit",
+      "description": "Brown Suit With Vest",
+      "price": "1250"
+    },
+    {
+      "id": "9",
+      "image": "https://freepngimg.com/thumb/suit/9-suit-png-image.png",
+      "name": "Navy Blue Suit ",
+      "description": "Blue Striped Suit With Vest",
+      "price": "1450"
+    }
+  ],
+  "myProducts": []
+}

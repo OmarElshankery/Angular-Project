@@ -1,0 +1,128 @@
+<div class="container-xl">
+  <div class="table-responsive">
+    <div class="table-wrapper">
+      <div class="table-title">
+        <div class="row header-title">
+          <div class="col-sm-6">
+            <h4><b>New Product</b></h4>
+          </div>
+          <div class="col-sm-6">
+            <button class="btn btn-warning mt-4">
+              <i class="fa fa-arrow-circle-left"> </i
+              ><span [routerLink]="['/dashboard']"> Back</span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <form [formGroup]="loginForm" (ngSubmit)="login()">
+        <div class="table-content">
+          <div class="form-group p-10 row">
+            <div class="col-sm-2">
+              <label for="image" class="p-t-b-10 form-label"
+                >Image<span class="requiredStar">*</span></label
+              >
+            </div>
+            <div class="col-sm-10">
+              <input
+                type="text"
+                class="form-control"
+                id="Image"
+                placeholder="Enter Image Of Product"
+                formControlName="image"
+                name="image"
+              />
+              <ng-container *ngIf="getImage.touched" id="imageHelp">
+                <p
+                  *ngIf="getImage.hasError('required')"
+                  class="alert alert-danger validationError"
+                >
+                  Image is required
+                </p>
+              </ng-container>
+            </div>
+          </div>
+          <div class="form-group p-10 row">
+            <div class="col-sm-2">
+              <label for="Name" class="p-t-b-10 form-label"
+                >Name<span class="requiredStar">*</span></label
+              >
+            </div>
+            <div class="col-sm-10">
+              <input
+                type="text"
+                class="form-control"
+                id="Name"
+                placeholder="Enter Name Of Product"
+                name="name"
+                formControlName="name"
+              />
+              <ng-container *ngIf="getName.touched" id="nameHelp">
+                <p
+                  *ngIf="getName.hasError('required')"
+                  class="alert alert-danger validationError"
+                >
+                  Name is required
+                </p>
+              </ng-container>
+            </div>
+          </div>
+          <div class="form-group p-10 row">
+            <div class="col-sm-2">
+              <label for="Price" class="p-t-b-10 form-label"
+                >Price<span class="requiredStar">*</span></label
+              >
+            </div>
+            <div class="col-sm-10">
+              <input
+                type="text"
+                class="form-control"
+                id="Price"
+                placeholder="Enter Price Of Product"
+                formControlName="price"
+                name="price"
+              />
+              <ng-container *ngIf="getPrice.touched" id="priceHelp">
+                <p
+                  *ngIf="getPrice.hasError('required')"
+                  class="alert alert-danger validationError"
+                >
+                  Price is required
+                </p>
+              </ng-container>
+            </div>
+          </div>
+          <div class="form-group p-10 row">
+            <div class="col-sm-2">
+              <label for="Description" class="p-t-b-10 form-label"
+                >Description<span class="requiredStar">*</span></label
+              >
+            </div>
+            <div class="col-sm-10">
+              <input
+                type="text"
+                class="form-control"
+                id="Description"
+                placeholder="Enter Description Of Product"
+                formControlName="description"
+                name="description"
+              />
+              <ng-container *ngIf="getDescription.touched" id="descriptionHelp">
+                <p
+                  *ngIf="getDescription.hasError('required')"
+                  class="alert alert-danger validationError"
+                >
+                  Description is required
+                </p>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+        <div class="table-footer">
+          <button class="btn btn-success" type="submit">
+            {{ productId ? "Edit Product" : "Add Product" }}
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

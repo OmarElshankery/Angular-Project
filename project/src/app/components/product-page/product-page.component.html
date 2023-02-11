@@ -1,0 +1,69 @@
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="main-img">
+        <img class="img-fluid" src="{{ product.image }}" alt="ProductS" />
+      </div>
+    </div>
+    <div class="col-md-7">
+      <div class="main-description px-2">
+        <a class="nav-item nav-link" href="#"
+          ><i class="fas fa-cart-plus fs-4"></i
+          ><span class="cart fs-5"> {{ count }}</span></a
+        >
+        <div class="category text-bold">Category: Fashion</div>
+        <div class="product-title text-secondary text-bold my-3">
+          Name : {{ product.name }}
+        </div>
+        <div class="price-area my-4">
+          <p class="old-price mb-1">
+            <del>Old Price</del>
+            <span class="old-price-discount text-danger"> (Discount)</span>
+          </p>
+          <p class="new-price text-danger text-bold mb-1">
+            Price : {{ product.price }}
+          </p>
+          <p class="text-secondary mb-1">
+            (Additional tax may apply on checkout)
+          </p>
+        </div>
+
+        <div class="buttons d-flex my-5">
+          <div class="block">
+            <a class="shadow btn custom-btn">Wishlist</a>
+          </div>
+          <div class="block">
+            <button class="shadow btn custom-btn" (click)="add()">
+              Add to cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-details my-4">
+        <p class="details-title text-color mb-1">Product Details</p>
+        <p class="description text-secondary text-bold mb-1 mt-5 fs-4">
+          Description: <br />
+          {{ product.description }}
+        </p>
+      </div>
+
+      <div class="row questions bg-light p-3">
+        <div class="col-md-11 text">
+          Have a question about our products at U Store? Feel free to contact
+          our representatives via live chat or email.
+        </div>
+      </div>
+
+      <div class="delivery my-4">
+        <p class="font-weight-bold mb-0">
+          <b>Delivery done in 3 days from date of purchase</b>
+        </p>
+      </div>
+      <div class="delivery-options my-4">
+        <p class="font-weight-bold mb-0"><b>Delivery options</b></p>
+        <p class="text-secondary">View delivery options here</p>
+      </div>
+    </div>
+  </div>
+</div>

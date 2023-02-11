@@ -1,0 +1,40 @@
+.col-sm-6 h4 {
+  display: flex;
+  position: relative;
+  font-size: 32px;
+  letter-spacing: 5px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.fa-plus-circle {
+  font-size: 20px;
+  margin-right: 15px;
+}
+.btn-success {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 550px;
+}
+.container-xl .header-title {
+  margin-top: 20px;
+  background-color: #114657 !important;
+  height: 90px;
+}
+.form-group {
+  margin-top: 50px;
+}
+label {
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.btn-warning {
+  margin-left: 400px;
+}

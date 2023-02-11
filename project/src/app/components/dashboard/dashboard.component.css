@@ -1,0 +1,41 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+.col-sm-6 h4{
+    display: flex;
+    position: relative;
+    font-size: 32px;
+    letter-spacing: 5px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.fa-plus-circle{
+    font-size: 20px;
+    margin-right: 15px;
+}
+.btn-success{
+    margin-top: 25px;
+    font-size: 20px;
+    margin-left: 320px;
+
+}
+.row{
+    background-color: #114657;
+    height: 90px;
+}
+.container-xl{
+    margin-top: 30px;
+}
+.view{
+    color: blue;
+}
+.delete{
+    color: red;
+}
+.edit{
+    color: rgb(216, 216, 26);
+} 
